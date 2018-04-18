@@ -25,7 +25,7 @@ cat 2007_train.txt 2007_val.txt 2012_*.txt > train.txt
 
 In order to use darknet to detect objects over the images you have to download the network configuration and the network weights [5] and [6]. Then set the corresponding paths into DeepLearningSuite/appConfig.txt. You have also to create a file with the corresponding name for each class detection for darknet, you can download the file directly from [7]
 
-Once you have your custom appConfig.txt( see #creating-a-custom-appconfigtxt) you can run the DatasetEvaluationApp.
+Once you have your custom appConfig.txt( see [creating-a-custom-appconfigtxt]( #creating-a-custom-appconfigtxt) ) you can run the DatasetEvaluationApp.
 
 
 [1] https://pjreddie.com/media/files/yolo-voc.weights <br>
